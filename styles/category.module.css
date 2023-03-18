@@ -1,0 +1,226 @@
+/* .header
+{    
+    background-color: #F4ECEC;
+
+    font-weight: bold; 
+    font-size: 30px; 
+    padding: 20px;
+    text-align: center;
+    height: 70px;
+    }
+.category
+{
+    background-color: #F4ECEC;
+    margin-top: 40px;
+    margin-left: 270px;
+    height:580px;
+    width: 80%;
+}
+    .title{
+    padding-top: 15px;
+    margin-left: 50px;
+}
+.save
+{
+  background-color:#8D4040;
+    margin-top: 85px;
+    margin-left:1000px;
+  color: white;
+}
+.sub
+{
+    background-color:#8D4040;
+    margin-top: 45px;
+    margin-left: 260px;
+}
+.text{
+    background-color:  white;
+    border-color: black;
+    width:80%;
+    margin-left: 50px; 
+    height: 20px;
+  }
+  .myform{
+    margin-left: 50px; 
+  }
+  .intext {
+   color: black;
+    background-color:  white;
+    border-width: thin;
+    border-color: black;
+    width:90%;
+    height: 25px; 
+  }
+.file {
+    background: #FFFFFF;
+    border: 1px solid #8D4040;
+    width: 25%;
+    margin: 2%;
+    margin-left: 0;
+}
+
+.box {
+    background: #FFFFFF;
+    border: 1px dashed #8D4040;
+    margin: 23px;
+    padding: 5%;
+    text-align: center;
+
+}
+
+.box p {
+    font-size: 14px;
+    line-height: 2rem;
+    color: #838383;
+}
+
+.imgbutton {
+    cursor: pointer;
+    background: #8D4040;
+    color: #fff;
+    border: 0;
+    width: 50%;
+    padding: 3.5%;
+    font-size: 11px;
+    font-weight: 500;
+} */
+.homenav button {
+  font-size: 0.8rem;
+}
+.homenav {
+  background-color: #f4ecec;
+  position: relative;
+}
+.btncolor {
+  background: #8d4040;
+}
+.imgtext {
+  color: #838383;
+}
+.inputbox {
+  border: 1px solid #8d4040;
+  background-color: white;
+  outline: 0;
+  color: #000;
+}
+.box1 {
+  width: 300px;
+  left: 0;
+  border: 1px solid #8d4040;
+}
+.box1 p,
+.box1 button {
+  font-size: 0.8rem;
+}
+.textarea {
+  height: 160px;
+  outline: none;
+  border: 1px solid #8d4040;
+  background-color: white;
+  color: #000;
+}
+.box2 {
+  border: 1px dashed #8d4040;
+}
+.searchbtn{    position: absolute;
+  top: 48%;
+  left: 10%;
+;}
+  .removebtn{background-color: rgba(255, 255, 255, 0.8);
+  position: absolute ;
+  left: 24%;
+  border: 0;
+}
+.subData
+{
+  text-align: center;
+  color: #8d4040;
+}
+
+
+
+ .TData{
+  color:black;
+
+} 
+.TData button
+{
+  background-color:#8d4040;
+}
+
+
+.TData Image
+{
+  background-color:white;
+}
+
+
+.TData thead{
+  background: #8d4040;
+    color: white;
+}
+.btn
+{
+  background: #8d4040;
+}
+.TData tbody{
+ background: #EEEEEE;
+}
+.Tbody td{
+  height: 70px;
+  }
+
+.Tbody tr:nth-child(odd) {
+background: #EEEEEE;
+ 
+}
+
+.Tbody tr:nth-child(even) {
+  background: #FFE8E8;
+
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  margin-left: 400px;
+  top: 80;
+  width: 50%; /* Full width */
+  height: 50%; /* Full height */
+  right: 50;
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.content {
+  background-color: #f4ecec;
+  border:1px solid #8d4040;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+
+ }
+ .content p{
+  text-align: center;
+  text-decoration: solid;
+  color:#8d4040;
+ }
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}

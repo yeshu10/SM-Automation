@@ -1,0 +1,99 @@
+.linkpage {
+  text-decoration: none;
+  color: #8d4040;
+}
+@media (max-width: 360px) {
+  .mtext {
+    font-size: 0.8rem;
+  }
+  .side_header {
+    width: 60% !important;
+  }
+}
+@media (min-width: 360px) {
+  .mtext {
+    font-size: 0.8rem;
+  }
+  .side_header {
+    width: 60% !important;
+  }
+}
+@media (min-width: 425px) {
+  .mtext {
+    font-size: 0.8rem;
+  }
+  .side_header {
+    width: 55% !important;
+  }
+}
+@media (min-width: 576px) {
+  .mtext {
+    font-size: 1rem;
+  }
+  .side_header {
+    width: 45% !important;
+  }
+}
+@media (min-width: 768px) {
+  .side_header {
+    width: 35% !important;
+  }
+}
+.mainboxsss {
+  max-width: 400px;
+  width: 100%;
+}
+.searchbox {
+  height: 50px;
+  max-width: 50px;
+  position: relative;
+  margin: auto;
+  transition: all 0.3s ease;
+}
+
+.check:checked ~ .searchbox {
+  max-width: 380px;
+}
+.searchbox input {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  color: #000;
+  border: 1px solid;
+  outline: 0;
+  padding-left: 20px;
+  font-size: 1.2rem;
+}
+.searchbox label {
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: center;
+  line-height: 50px;
+}
+.check:checked ~ .searchbox p {
+  color: red;
+}
+.check {
+  display: none;
+}
+.footerbox {
+  background: #8d4040;
+}
+.footerbox1 {
+  background: #eeeeee;
+}
+.imgmain {
+  top: 9.5%;
+}
+.arrowup {
+  width: 0;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-bottom: 16px solid #eeeeee;
+}
+.mtext {
+  color: #8d4040;
+}

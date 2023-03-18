@@ -1,0 +1,29 @@
+
+  /* .imgbox {
+    background: #8d4040;
+  }
+  .Mtext2 {
+    color: #8d4040;
+  }
+  .mbox1 {
+    background: #eeeeee;
+  }
+   */
+    
+  .shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}.maincategory {
+  background: #8d4040;
+}
+.title
+{
+
+  color: #8d4040;
+  font-weight: bolder;
+      position: absolute;
+    left: 500px;
+}
+.foot
+{
+  padding-top: 120px;
+}

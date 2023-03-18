@@ -1,0 +1,53 @@
+.maincontent {
+    display: flex;
+    padding: 19%;
+    justify-content: center;
+  }
+  
+  .main {
+    background: #f4ecec;
+    min-height: 100vh;
+  }
+  .linkpage {
+    text-decoration: none;
+    color: white;
+    float: left;
+  }
+  .linkpage p:hover {
+    color: #fff;
+    background-color: #8d4040;
+    text-decoration: underline white;
+  }
+  .linkpage p:active {
+    color: #fff;
+    background-color: #8d4040;
+    text-decoration: underline white;
+  }
+  
+  @media (min-width: 992px) {
+    .main {
+      width: 20%;
+    }
+  }
+  @media (min-width: 1200px) {
+    .main {
+      width: 16%;
+    }
+  }
+  .nav {
+    background: #8d4040;
+    color: #fff;
+  }
+  .homenav {
+    background-color: #8d4040;
+    position: relative;
+    justify-content: right;
+  }
+  .logo
+  {
+    justify-content: left;
+  }
+  .allnav
+  {
+    justify-content: right;
+  }

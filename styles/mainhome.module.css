@@ -1,0 +1,140 @@
+.homenav {
+  background-color: #f4ecec;
+  position: relative;
+}
+.text1,
+.text1 span {
+  color: #838383;
+}
+.Mtext2 {
+  color: #8d4040;
+}
+.mbox1 {
+  background: #eeeeee;
+}
+
+.overshow {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 14%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.homenav:hover .overshow {
+  opacity: 1;
+}
+
+.checks {
+  accent-color: #fff;
+}
+.check{
+  background-color:transparent;
+  border: black;
+  height: 18px;
+  width: 18px;
+  accent-color: #fff;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+ }
+.dots1 {
+  margin-bottom: -21px;
+  gap: 0.3rem;
+}
+.dots1 button {
+  width: 8px !important;
+  height: 8px !important;
+  background-color: #8d4040 !important;
+  opacity: 0.5;
+  border-radius: 20%;
+}
+
+.removebtn{background-color:transparent;
+  border: 0;
+ 
+}
+/* Float cancel and delete buttons and add an equal width */
+.cancelbtn, .deletebtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add a color to the cancel button */
+.cancelbtn {
+  background-color: #ccc;
+  color: black;
+}
+
+/* Add a color to the delete button */
+.deletebtn {
+  background-color: #f44336;
+}
+
+/* Add padding and center-align text to the container */
+.container {
+  padding: 16px;
+  text-align: center;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  margin-top: 150px;
+  margin-left: 300px;
+
+  /* left: 0; */
+  top: 0;
+  width: 50%; /* Full width */
+  height: 50%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.content {
+  background-color: #fefefe;
+  margin: 2% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+/* hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+} */
+ 
+/* The Modal Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}

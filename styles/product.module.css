@@ -1,0 +1,106 @@
+.topinnerr {
+  max-height: 393px;
+}
+.slidem {
+  display: flex;
+  justify-content: center;
+}
+.btnarrr {
+  opacity: 100;
+}
+.btnarrr span {
+  color: #8d4040;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-item: center;
+}
+.dots1 {
+  margin-bottom: -21px;
+  gap: 0.3rem;
+}
+.dots1 button {
+  width: 8px !important;
+  height: 8px !important;
+  background-color: #8d4040 !important;
+  opacity: 0.5;
+  border-radius: 20%;
+}
+.inner {
+  display: flex;
+  align-items: center;
+  width: 87%;
+  justify-content: center;
+  margin: auto;
+}
+.itemss {
+  height: 106px;
+
+  margin-right: auto;
+}
+.btnarr {
+  width: 4%;
+  background: #8d4040;
+  opacity: 100;
+}
+.cardbox {
+  width: 150px;
+  height: 100px;
+  text-align: center;
+}
+.btncolor {
+  background: #8d4040;
+  align-items: center;
+}
+.btncolor span {
+  font-size: 1rem;
+}
+.qbtn {
+  display: grid;
+}
+.qbtn span {
+  font-size: 1rem;
+}
+
+.textbox p {
+  font-size: 0.9rem;
+  color: #787878;
+}
+.textbox span {
+  color: #000;
+}
+.text {
+  color: #8d4040 !important;
+}
+.cardbox1 {
+  width: 180px;
+  height: 150px;
+  text-align: center;
+}
+.rabox {
+  background: #eeeeee;
+}
+.rabox2 {
+  background: #ffe8e8;
+}
+.mform input,
+.mform textarea {
+  width: 100%;
+  background: #eeeeee;
+  border: none;
+  outline: none;
+}
+.mform p {
+  background: yellow;
+}
+.btncol {
+  background: #eeeeee;
+  color: #8d4040;
+  width: 45%;
+}
+@media (min-width: 576px) {
+  .mform {
+    box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.25);
+  }
+}

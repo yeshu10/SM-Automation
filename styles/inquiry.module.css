@@ -1,0 +1,70 @@
+.homenav {
+  background: #f4ecec;
+}
+.drop {
+  left: -65px !important;
+  --bs-dropdown-min-width: 7.5rem;
+  box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.15);
+}
+.drop label {
+  color: #838383;
+  font-size: 0.9rem;
+}
+.maintable thead {
+  background: #8d4040;
+  color: #fff;
+}
+.maintable {
+  background: #f4ecec;
+  font-size: 0.9rem;
+  border-collapse: collapse;
+  border-spacing: 0 15px;
+  width: 100%;
+}
+
+.maintable th,
+.maintable td {
+  text-align: left;
+  padding: 8px;
+}
+
+.maintable tr:nth-child(even) {
+  background-color: #f4f4f4;
+}
+/* .maintable tbody:before {
+  line-height: 1em;
+  content: ".";
+  background-color: white;
+  display: block;
+} */
+.minquiry {
+  color: #8d4040;
+}
+.mform input,
+.mform textarea {
+  width: 100%;
+  background: #eeeeee;
+  border: none;
+  outline: none;
+}
+.mform p {
+  background: yellow;
+}
+.mform button {
+  background: #eeeeee;
+  color: #8d4040;
+}
+.mform input[required] + label:after {
+  content: "*";
+  color: red;
+}
+.btncol {
+  background: #eeeeee;
+  color: #8d4040;
+  width: 45%;
+}
+@media (min-width: 576px) {
+  .mform {
+    box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.25);
+  }
+}

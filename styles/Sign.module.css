@@ -1,0 +1,62 @@
+.main {
+  background: #f4ecec;
+  min-height: 93vh;
+  width: 30%;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.maincontent {
+  display: flex;
+  padding: 19%;
+  justify-content: center;
+}
+
+.color1 {
+  color: #8d4040;
+}
+
+.formbox {
+  width: 46%;
+}
+.checks {
+  accent-color: #8d4040;
+}
+.btncolor {
+  background-color: #8d4040;
+}
+
+.hmm {
+  position: relative;
+}
+.hmm input {
+  width: 100%;
+  padding: 15px;
+  font-size: 1rem;
+  border: 0.5px solid #e2e1e1;
+  outline: none;
+  font-weight: 600;
+  transition: all 0.5s ease;
+  background-color: white;
+}
+.hmm input::placeholder {
+  color: #000;
+}
+.hmm label {
+  display: none;
+  position: absolute;
+  top: -10px;
+  background: white;
+  left: 23px;
+  font-size: 14px;
+  padding: 0 9px;
+  transition: all 0.5s ease;
+}
+
+.hmm input:not(:placeholder-shown) + label {
+  display: block;
+  transition: all 0.5s ease;
+  color: #e2e1e1;
+}

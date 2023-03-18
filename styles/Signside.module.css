@@ -1,0 +1,18 @@
+.side
+{
+    background-color: #F4ECEC;
+    width:370px;
+    height:100%;
+    position: absolute;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+.logo
+{
+margin-top: 50px;
+margin-left: 40px;
+}
+.Img{
+    margin-top: 100px;
+    margin-left: 10px;
+    }

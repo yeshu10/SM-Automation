@@ -1,0 +1,110 @@
+/* .header {
+  background-color: #f4ecec;
+  color: brown;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 30px;
+  text-align: center;
+}
+.category {
+  background-color: #f4ecec;
+  margin-top: 40px;
+  margin-left: 270px;
+  height: 540px;
+  width: 80%;
+}
+.file {
+  margin-top: 50px;
+  margin-left: 200px;
+  height: 150px;
+  width: 200px;
+  background-color: white;
+}
+.save {
+  margin-top: 50px;
+  margin-left: 800px;
+}
+.sub {
+  margin-top: 100px;
+  margin-left: 450px;
+}
+.text {
+  margin-left: 50px;
+}
+.title {
+  margin-top: 25px;
+  margin-left: 40px;
+}
+.Img {
+  margin-top: 60px;
+  margin-left: 1000px;
+}
+.para {
+  margin-right: 75px;
+  float: right;
+}
+.intext {
+  margin-left: 5px;
+  background-color: white;
+  border-width: thin;
+  border-color: black;
+  width: 80%;
+  height: 27px;
+} */
+.homenav button {
+  font-size: 0.8rem;
+}
+.homenav {
+  background-color: #f4ecec;
+  position: relative;
+}
+.btncolor {
+  background: #8d4040;
+}
+.imgtext {
+  color: #838383;
+}
+.inputbox {
+  border: 1px solid #8d4040;
+  outline: 0;
+  /* width: 89%; */
+  padding-left: 5rem;
+  background:white;
+
+}
+.savebtn {
+  margin-top: 29%;
+}
+.upload {
+  background: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+@media (min-width: 992px) {
+  .inputbox {
+    width: 83%;
+  }
+}
+@media (min-width: 1250px) {
+  .inputbox {
+    width: 89%;
+  }
+}
+/* .inputbox {
+  background-image: url("../public/assets/WA.png");
+  position: left;
+  padding-left: 30px;
+  background-size: 15px;
+  background-repeat: no-repeat;
+} */
+/* .inputbox input::placeholder {
+  padding-left: 20px;
+  color: red;
+} */
+/* .inputbox::placeholder {
+  color: red;
+  padding-left: 20px;
+}
+
+.inputbox input {
+  padding-left: 1rem;
+} */

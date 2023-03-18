@@ -1,0 +1,191 @@
+.maincontent {
+  display: flex;
+  padding: 19%;
+  justify-content: center;
+}
+
+.main {
+  background: #f4ecec;
+  min-height: 100vh;
+}
+.linkpage {
+  text-decoration: none;
+  color: #8d4040;
+}
+.linkpage li:hover {
+  color: #fff;
+  background-color: #8d4040;
+}
+
+@media (min-width: 992px) {
+  .main {
+    width: 20%;
+  }
+}
+@media (min-width: 1200px) {
+  .main {
+    width: 16%;
+  }
+}
+.nav {
+  background: #8d4040;
+  color: #fff;
+}
+/* .mainss {
+  max-width: 400px;
+  width: 100%;
+} */
+/* .searchbox {
+  position: relative;
+  max-width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+.searchbox:hover {
+  max-width: 610px;
+}
+.searchbox input {
+  position: relative;
+  width: 100%;
+  height: 79%;
+  outline: 0;
+  padding: 7px;
+  color: #8d4040;
+  font-size: 1.1rem;
+  background: transparent;
+  border: 0;
+}
+.searchbox input::placeholder,
+.searchbox input {
+  color: #8d4040;
+}
+.searchbox:hover input::placeholder,
+.searchbox:hover input {
+  color: #8d4040;
+  background: #fff;
+}
+.searchbox .imgbox {
+  cursor: pointer;
+}
+.searchbox .imgg {
+  display: none;
+}
+.searchbox input:hover ~ .imgbox {
+  display: none;
+}
+.searchbox input:hover ~ .imgg {
+  display: block;
+  color: #8d4040;
+  position: absolute;
+  right: -59px;
+  cursor: pointer;
+} */
+
+/* 
+
+.side {
+  background-color: #f4ecec;
+  position: absolute;
+  width: 220px;
+  height: 100%;
+  margin-bottom: 40px;
+}
+.sidedata {
+  margin-left: 100px;
+  margin-top: 100px;
+  color: brown;
+  font-size: medium;
+  font-weight: bold;
+}
+.dash {
+  margin-top: 10px;
+}
+.about {
+  margin-top: 10px;
+}
+.home {
+  margin-top: 10px;
+/* } */
+/*
+.mainboxsss {
+  max-width: 400px;
+  width: 100%;
+}
+.searchbox {
+  height: 50px;
+  max-width: 50px;
+  position: relative;
+  margin: auto;
+  transition: all 0.3s ease;
+}
+
+.check:checked ~ .searchbox {
+  max-width: 380px;
+}
+.searchbox input {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  color: #000;
+  border: 1px solid;
+  outline: 0;
+  padding-left: 20px;
+  font-size: 1.2rem;
+}
+.searchbox label {
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: center;
+  line-height: 50px;
+}
+.check:checked ~ .searchbox p {
+  color: red;
+}
+.check {
+  display: none;
+} */
+
+.mainboxsss {
+  max-width: 617px;
+  width: 100%;
+}
+.searchbox {
+  height: 50px;
+  max-width: 50px;
+  position: relative;
+  margin: auto;
+  transition: all 0.3s ease;
+}
+
+.check:checked ~ .searchbox {
+  max-width: 568px;
+}
+.searchbox input {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  color: #000;
+  border: 1px solid;
+  outline: 0;
+  padding-left: 20px;
+  font-size: 1.2rem;
+}
+.searchbox label {
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: center;
+  line-height: 50px;
+}
+.check:checked ~ .searchbox p {
+  color: red;
+}
+.check {
+  display: none;
+}
